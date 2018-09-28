@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-sth', '--scorethreshold', dest='score_thresh', type=float,
-                        default=0.2, help='Score threshold for displaying bounding boxes')
+                        default=0.4, help='Score threshold for displaying bounding boxes')
     parser.add_argument('-fps', '--fps', dest='fps', type=int,
                         default=1, help='Show FPS on detection/display visualization')
     parser.add_argument('-src', '--source', dest='video_source',
@@ -23,7 +23,8 @@ if __name__ == '__main__':
                         default=1, help='Display the detected images using OpenCV. This reduces FPS')
 
     args = parser.parse_args()
-    cap = cv2.VideoCapture(args.video_source)
+    print(args.video_source)
+    cap = cv2.VideoCapture(1)
     #cap.set(cv2.CAP_PROP_FRAME_WIDTH, args.width)
     #cap.set(cv2.CAP_PROP_FRAME_HEIGHT, args.height)
 
