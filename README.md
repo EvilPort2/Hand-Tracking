@@ -1,6 +1,9 @@
 # Hand Tracking
 Tracking hands using SSD with MobilenetV1
 
+## Outcome
+See it <a href='https://youtu.be/RZqK-q1QFFI'>here</a>
+
 ## What I did here
 1. Recorded images of my hands in different postures, positions and background.
 2. Randomly did some augmentations to those images viz resize, coloration, add noise, flip and rotate.
