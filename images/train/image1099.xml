@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>image1099.jpg</filename>
+	<path>E:\Python Programs\hand_tracking\images\image1099.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>277</xmin>
+			<ymin>195</ymin>
+			<xmax>447</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>337</xmin>
+			<ymin>52</ymin>
+			<xmax>534</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+</annotation>

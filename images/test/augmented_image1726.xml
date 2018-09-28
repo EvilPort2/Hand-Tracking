@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>augmented_image1726.jpg</filename>
+	<path>E:\Python Programs\hand_tracking\images\augmented_image1726.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>270</xmin>
+			<ymin>39</ymin>
+			<xmax>388</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+</annotation>
